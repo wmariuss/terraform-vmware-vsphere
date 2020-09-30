@@ -1,10 +1,6 @@
-# vSphere module
+# terraform-vmware-vsphere
 
-* Create VM(s) with the default disk (increse it as you want)
-* Create categories, tags, folders and notes (you can attach them too)
-* Support for provisioning
-* Create resources pool using standalone host
-* Anti-Affinity support
+Manage resources in VMware - vSphere/vCenter.
 
 ## Inputs
 
