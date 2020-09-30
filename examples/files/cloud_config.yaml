@@ -1,0 +1,10 @@
+#cloud-config
+
+write_files:
+  - path: ~/working.txt
+    content: |
+      Working.
+      Just a test.
+
+rruncmd:
+  - echo "Testing..."
