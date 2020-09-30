@@ -98,7 +98,7 @@ variable "VSPHERE_PASSWORD" {}
 
 
 module "vsphere_vm" {
-  source        = "<MODULE_URL>"
+  source        = "git::https://github.com/wmariuss/terraform-vmware-vsphere.git?ref=v1.0.0"
   number_of_vms = 1
   server        = "${var.VSPHERE_HOST}"
   user          = "${var.VSPHERE_USER}"
@@ -176,7 +176,7 @@ variable "VSPHERE_PASSWORD" {}
 
 
 module "vsphere_vm" {
-  source    = "<MODULE_URL>"
+  source    = "git::https://github.com/wmariuss/terraform-vmware-vsphere.git?ref=v1.0.0"
   server    = "${var.VSPHERE_HOST}"
   user      = "${var.VSPHERE_USER}"
   password  = "${var.VSPHERE_PASSWORD}"
@@ -215,7 +215,7 @@ variable "VSPHERE_USER" {}
 variable "VSPHERE_PASSWORD" {}
 
 module "vsphere_vm" {
-  source = "<MODULE_URL>"
+  source = "git::https://github.com/wmariuss/terraform-vmware-vsphere.git?ref=v1.0.0"
 
   server               = "${var.VSPHERE_HOST}"
   user                 = "${var.VSPHERE_USER}"
