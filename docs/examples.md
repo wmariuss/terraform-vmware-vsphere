@@ -1,6 +1,6 @@
 # Examples
 
-## Example
+Example creating VM, folder, categories and tags.
 
 ```hcl
 # Example secret.tfvars file

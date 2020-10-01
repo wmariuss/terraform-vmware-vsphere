@@ -2,6 +2,10 @@
 
 Manage resources in VMware - vSphere/vCenter.
 
+## Requirements
+
+* `terraform >= 0.12.x`
+
 ## Docs
 
 Examples, active parameters/variables can be found [here](docs/).
