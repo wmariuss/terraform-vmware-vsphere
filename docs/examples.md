@@ -155,4 +155,4 @@ output "folders" {
 }
 ```
 
-More exanples [here](examples/).
+More examples [here](../examples/).
